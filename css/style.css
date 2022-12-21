@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li, a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+img, svg {
+    vertical-align: top;
+}
+/* header area start here  */
+.navbar-brand {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+.navbar-brand:hover {
+    color: #000000;
+}
+.navbar-toggler:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem;
+}
+.navbar_toggler_icon {
+    content: "";
+    width: 20px;
+    height: 2.5px;
+    margin-bottom: 3.5px;
+    background: #000;
+    display: block;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2.18rem;
+    padding-left: 2.18rem;
+}
+.nav-link {
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.507);
+    transition: .3s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #000000;
+}
+/* header area end here  */
+/* hiro area start here  */
+#hiro{
+    margin-top: 148px;
+}
+.hiro_content h2{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+.hiro_content a{
+    display: inline-block;
+    margin-top: 16px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8C8C8C;
+    padding: 10px 15px;
+    background: #F8F8F8;
+    border-radius: 74px;
+    transition: .5s ease-in-out;
+}
+.hiro_content a:hover{
+    color: #000;
+}
+.hiro_content h3{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 140%;
+    color: #000000;
+    margin-top: 59px;
+}
+.hiro_content h3 img{
+    display: inline-block;
+}
+.get_btn{
+    margin-top: 60px;
+}
+.get_btn h4{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.get_btn a{
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #000;
+    padding: 18px 40px;
+    display: inline-block;
+    transition: .5s ease-in-out;
+    border: 1.5px solid #000;
+}
+.get_btn a:hover{
+    background: transparent;
+    color: #000;
+    border: 1.5px solid #000;
+}
+.get_btn a i{
+    vertical-align: middle;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+}
+/* hiro area end here  */
+/* project area start here  */
+#project{
+    margin-top: 135px;
+}
+#project h4{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 26px;
+    color: #888888;
+    margin-bottom: 60px;
+}
+.project_items{
+    background: #FCFCFC;
+    border: 2px solid #F2F2F2;
+    padding: 40px;
+    margin-bottom: 80px;
+}
+.project_content h2{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+.project_content ul{
+    display: flex;
+    list-style: none;
+}
+.project_content ul li{
+    margin-right: 15px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 66px;
+    color: #000000;
+}
+.project_content ul li span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.project_content p{
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170%;
+    color: #000000;
+}
+.project_content a{
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    padding: 16px 40px;
+    border: 2px solid #000000;
+    transition: .5s ease-in-out;
+    margin-top: 60px;
+    display: inline-block;
+}
+.project_content a i{
+    vertical-align: middle;
+    margin-left: 30px;
+    transform: rotate(-45deg);
+}
+.project_content a:hover{
+    color: #FFFFFF;
+    background: #000;
+}
+/* project area end here  */
+/* Testimonials area start here  */
+#Testimonials{
+    margin-top: 70px;
+}
+#Testimonials h2{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    color: #000000;
+}
+#Testimonials h5{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 66px;
+    color: #888888;
+}
+.Testimonials_main{
+    margin-top: 30px;
+}
+.testimonials_items{
+    max-width: 433px;
+    max-height: 311px;
+    background: #FFFFFF;
+    border: 3px solid #F3F3F3;
+    border-radius: 20px;
+    padding: 32px 27px;
+    transition: .5s ease-in-out;
+}
+.testimonials_items:hover{
+    filter: drop-shadow(0px 5px 100px rgba(0, 0, 0, 0.15));
+}
+.testimonials_items_top{
+    display: flex;
+}
+.testimonials_items_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #F3F3F3;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.testimonials_items_content h3{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 190%;
+    color: #000000;
+}
+.testimonials_items_content h4{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: #8A9196;
+}
+.testimonials_items_content ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.testimonials_items_content ul li{
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #14222D;
+    margin-right: 5px;
+}
+.testimonials_items_content ul li:last-child{
+    margin-left: 10px;
+}
+.testimonials_items_content ul li i{
+    font-size: 18px;
+    color: #FFB530;
+}
+.testimonials_items_bottom{
+    margin-top: 30px;
+}
+.testimonials_items_bottom p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #626C73;
+    position: relative;
+    margin-left: 13px;
+}
+.testimonials_items_bottom p::before{
+    content: "\f10d";
+    font-family: 'fontawesome';
+    font-size: 18px;
+    color: #63A8DF;
+    position: absolute;
+    top: -8px;
+    left: -18px;
+}
+.testimonials_items_bottom p::after{
+    content: "\f10e";
+    font-family: 'fontawesome';
+    font-size: 18px;
+    color: #63A8DF;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+/* Testimonials area end here  */
+/* footer area start here  */
+#footer{
+    background: #000;
+    margin-top: 200px;
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+.footer_left h2{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer_left a{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 66px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.footer_right{
+    padding-left: 240px;
+}
+.footer_right a{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 66px;
+    color: #FFFFFF;
+    display: block;
+}
+.footer_right a i{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.footer_bottom{
+    margin-top: 120px;
+}
+.footer_bottom p{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer_menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+.footer_menu ul li{
+    margin-right: 60px;
+}
+.footer_menu ul li:last-child{
+    margin-right: 0;
+}
+.footer_menu ul li a{
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    transition: .5s ease-in-out;
+}
+.footer_menu ul li a:hover{
+    color: #8C8C8C;
+}
+/* footer area end here  */
+/* ============ about me page start here============ */
+/* about me are start here  */
+#about_me{
+    margin-top: 126px;
+}
+.abut_me_img{
+    max-width: 650px;
+}
+.abut_me_img img {
+    width: 100%;
+}
+.about_me_content p {
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    margin-left: 60px;
+}
+/* about me are end here  */
+/* education area start here  */
+#education{
+    margin-top: 200px;
+}
+.content_head h2{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #000000;
+    margin-bottom: 54px;
+}
+.content_items{
+    margin-bottom: 50px;
+}
+.content_items h3{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+}
+.content_items h4{
+    margin-top: 15px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 26px;
+    color: #000000;
+}
+.content_items h5{
+    margin-top: 20px;
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 20px;
+    color: #7B7B7B;
+}
+/* education area end here  */
+/* ============ about me page end here============ */
+/* ============= resume page start here =========== */
+#get_me{
+    margin-top: 140px;
+}
+.get_me_head h2{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 46px;
+    color: #000000;
+    margin-bottom: 36px;
+}
+.form_items{
+    margin-bottom: 36px;
+}
+.form_items label{
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 20px;
+    color: #7B7B7B;
+    display: block;
+}
+.form_items input{
+    font-family: 'Karla';
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    border-bottom: 2px solid #7B7B7B;
+}
+.form_items input:focus{
+    outline: none;
+    border-bottom: 3px solid #000000;
+}
+.form_items input::placeholder{
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 36px;
+    color: #7B7B7B;
+}
+.form_items textarea{
+    font-family: 'Karla';
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    border: none;
+    border-bottom: 2px solid #7B7B7B;
+}
+.form_items textarea:focus{
+    outline: none;
+    border-bottom: 3px solid #000000;
+}
+.get_me_form button{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #000;
+    padding: 12px 40px;
+    margin-top: 34px;
+}
+/* ============= resume page end here =========== */

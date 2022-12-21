@@ -1,0 +1,319 @@
+@media (min-width:1500px) {
+    .container{
+        max-width: 1434px !important;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1499.98px) {
+    .project_content h2 {
+        font-size: 36px;
+    }
+    .project_content a {
+        margin-top: 24px;
+    }
+    .footer_right {
+        padding-left: 120px;
+    }
+
+    /*========= about me page start here ========*/
+    .about_me_content p {
+        font-size: 16px;
+        margin-left: 70px;
+    }
+    /*========= about me page end here ==========*/
+}
+@media (max-width: 1199.98px) { 
+    .navbar-brand {
+        font-size: 32px;
+    }
+    #hiro {
+        margin-top: 110px;
+    }
+    .hiro_content h2 {
+        font-size: 36px;
+    }
+    .hiro_content h3 {
+        font-size: 46px;
+    }
+    .get_btn a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    #project {
+        margin-top: 100px;
+    }
+    .project_items {
+        padding: 20px;
+        margin-bottom: 48px;
+    }
+    .project_content h2 {
+        font-size: 32px;
+    }
+    .project_content ul li {
+        font-size: 18px;
+        line-height: 48px;
+    }
+    .project_content p {
+        font-size: 16px;
+        line-height: 160%;
+    }
+    .project_content a {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    #Testimonials h2 {
+        font-size: 42px;
+    }
+    .testimonials_items {
+        padding: 10px;
+    }
+    .testimonials_items_bottom p {
+        line-height: 160%;
+    }
+    .footer_left h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .footer_right {
+        padding-left: 48px;
+    }
+    .footer_bottom p {
+        font-size: 18px;
+    }
+    .footer_menu ul li a {
+        font-size: 18px;
+    }
+     /*====== about me page start here =======*/
+     .about_me_content p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    /*======= about me page end here =========*/
+ }
+@media (max-width: 991.98px) {
+    .hiro_content h3 {
+        margin-top: 42px;
+    }
+    .get_btn {
+        margin-top: 20px;
+    }
+    #Testimonials h2 {
+        font-size: 36px;
+    }
+    #Testimonials h5 {
+        font-size: 18px;
+    }
+    .testimonials_items {
+        padding: 10px;
+        margin-bottom: 26px;
+    }
+    .footer_left h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .footer_left a {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .footer_right {
+        padding-left: 0px;
+    }
+    .footer_right a {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .footer_menu ul li {
+        margin-right: 26px;
+    }
+    .footer_menu ul li a {
+        font-size: 16px;
+    }
+     /*========= about me page start here====== */
+     #about_me {
+        margin-top: 80px;
+    }
+    /*======== about me page end here ==========*/
+}
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        width: 148px;
+        position: absolute;
+        top: 48px;
+        right: 0;
+        background: #fff;
+    }
+    .nav-link {
+        font-size: 18px;
+    }
+    #hiro {
+        margin-top: 48px;
+    }
+    .hiro_content h2 {
+        font-size: 32px;
+    }
+    .hiro_content h2 img{
+        width: 32px;
+    }
+    .hiro_content h3 img {
+        width: 40px;
+    }
+    .hiro_content h3 {
+        margin-top: 30px;
+        font-size: 32px;
+    }
+    #project {
+        margin-top: 48px;
+    }
+    #project h4 {
+        margin-bottom: 20px;
+    }
+    .project_items {
+        margin-bottom: 32px;
+    }
+    .project_content h2 {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    #Testimonials {
+        margin-top: 48px;
+    }
+    #Testimonials h2 {
+        line-height: 30px;
+    }
+    #Testimonials h5 {
+        line-height: 48px;
+    }
+    #footer {
+        margin-top: 100px;
+    }
+    .footer_right {
+        margin-top: 26px;
+    }
+    .footer_bottom{
+        flex-direction: column-reverse;
+        margin-top: 48px;
+    }
+    .footer_bottom p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer_menu ul {
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+     /*========= about me page start here ======= */
+     #about_me {
+        margin-top: 70px;
+    }
+     .about_me_content p {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-left: 0;
+    }
+    #education {
+        margin-top: 100px;
+    }
+    /*======== about me page end here =========*/
+    /*======== resume page start here =========== */
+    #get_me {
+        margin-top: 100px;
+    }
+    .get_me_head h2 {
+        font-size: 36px;
+    }
+    .form_items label {
+        font-size: 16px;
+    }
+    .form_items input {
+        font-size: 26px;
+    }
+    .form_items input::placeholder{
+        font-size: 26px;
+    }
+    .form_items textarea{
+        font-size: 26px;
+    }
+    .get_me_form button {
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: #000;
+        padding: 10px 32px;
+        margin-top: 0;
+    }
+    /*======== resume page end here  ========*/
+}
+@media (max-width: 575.98px) {
+    .navbar-brand {
+        font-size: 26px;
+    }
+    .hiro_content h2 {
+        font-size: 26px;
+    }
+    .hiro_content h2 img {
+        width: 26px;
+    }
+    .hiro_content h3 {
+        margin-top: 26px;
+        font-size: 26px;
+    }
+    .hiro_content h3 img {
+        width: 32px;
+    }
+    .get_btn h4 {
+        font-size: 18px;
+    }
+    .get_btn a {
+        font-size: 16px;
+        padding: 8px 18px;
+    }
+    .project_content h2 {
+        font-size: 26px;
+    }
+    #Testimonials h2 {
+        font-size: 26px;
+    }
+    #Testimonials h5 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #footer {
+        margin-top: 32px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    /* about me page start here */
+    .content_head h2 {
+        margin-bottom: 26px;
+    }
+    .content_items {
+        margin-bottom: 36px;
+    }
+    /* about me page end here */
+    /*======== about me page end here =========*/
+    /*======== resume page start here  ========*/
+    #get_me {
+        margin-top: 80px;
+    }
+    .get_me_head h2 {
+        font-size: 32px;
+    }
+    .form_items label {
+        font-size: 16px;
+    }
+    .form_items input {
+        font-size: 20px;
+    }
+    .form_items input::placeholder{
+        font-size: 20px;
+    }
+    .form_items textarea{
+        font-size: 20px;
+    }
+    /*======== resume page end here  ========*/
+ }
+@media (max-width: 359.98px) {
+    .footer_menu ul li {
+        margin-right: 10px;
+    }
+ }
